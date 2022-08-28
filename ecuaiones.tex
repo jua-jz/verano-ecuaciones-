@@ -1,0 +1,119 @@
+\documentclass[12pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb,amsfonts,latexsym,cancel}
+\begin{document}
+\begin{titlepage}
+\centering
+\bfseries\LARGE(UNIVERSIDAD DEL CAUCA)
+
+\vspace{1cm}
+\scshape( FACULTAD INGENIERIA CIVIL)
+
+\vspace{2cm}
+\scshape( TEMA :ECUACIONES DIFERENCIALES)
+
+\vspace{2cm}
+\large(presenta: JUAN JOSE ZAPATA RANGEL)
+
+\vspace{2 cm} 
+\large(presentado a : jhonatan C.)
+
+\vspace{0.5cm}
+\large(fecha:29/08/2022)
+
+\end{titlepage}
+\begin{center}
+INTRODUCCION 
+
+en este documento realizado con un codigo en latex vamos a encontrar un breve resumen de lo que son las ecuaciones diferenciales asi como el tema relacionado con modelos lineales/sistema de resorte de masas econtraremos un resumen de este tema asi como un ejercicio resuelto ,sera una experiencia en la cual aprenderemos a realizar trabajos con esta excelente erramienta.
+\end{center}
+\begin{center}
+\chapter{•ecuaciones diferenciales}
+\end{center}
+las ecuaciones diferenciales son una ecuación que involucra a las derivadas de una función con la propia función y/o las variables de las que depende. En sus aplicaciones, las funciones generalmente representan cantidades y las derivadas son las tasas de variación de estas cantidades.la ecuación que relaciona diferentes funciones de cambio y da como resultado otra función sería una ecuación diferencial.
+\section{temas que me toco investigar}
+en el curso de verano que estamos cursando con el profe jhonnatan collazos se asignaron unos temas muy interesantes para que conocieramos mas a fondo sobre las ecuaciones diferenciales, los que me tocaron a mi son los siguientes :
+\section{Modelos Lineales : Problemas con valores iniciales }
+\subsection*{sistema resorte masa/movimiento libre no amortiguado•} 
+Cuando hablamos de movimientos libres no amortiguados significa que no hay ninguna fuerza externa actuando sobre el sistema, no amortiguado significa que no hay nada que le ofrezca resistencia  a la masa que se esta desplazando 
+\subsection{LEY DE HOOKE}
+ Suponga que un resorte se suspende verticalmente de un soporte
+
+rígido y luego se le fi ja una masa m a su extremo libre. Por supuesto, la cantidad de alar-
+gamiento o elongación del resorte depende de la masa; masas con pesos diferentes
+
+alargan el resorte en cantidades diferentes. Por la ley de Hooke, el resorte mismo ejerce
+
+una fuerza restauradora F opuesta a la dirección de elongación y proporcional a la canti-
+dad de elongación s y es expresada en forma simple como F  ks, donde k es una constan -
+
+te de proporcionalidad llamada constante de resorte. El resorte se caracteriza en esen-
+cia por el número k. Por ejemplo, si una masa que pesa 10 libras hace que un resorte se
+
+alargue $\frac{1}{•2} pie$, entonces $10 = k \frac{•1}{•2}$  implica que $ k = \frac{lib}{pie}.$ Entonces necesariamente
+
+una masa que pesa, digamos, 8 libras alarga el mismo resorte sólo $\frac{2}{5}$pie.
+\subsection{SEGUNDA LEY DE NEWTON}
+ Después de que se une una masa m a un resorte, ésta alarga el resorte una cantidad s y logra una posición de equilibrio en la cual su peso W se
+equilibra mediante la fuerza restauradora ks. Recuerde que el peso se defi ne mediante
+W  mg, donde la masa se mide en slugs, kilogramos o gramos y $g= \frac{32pie}{seg^{2}}$, $\frac{9,8m}{seg^{2}}$,o bien $\frac{908cm}{seg^{2}}$, respectivamente. la condición de equilibrio es $mg = ks$ o $mg  ks = 0$. Si la masa se desplaza por una cantidad x de su po-
+sición de equilibrio, la fuerza restauradora del resorte es entonces $k(x + s)$. Suponiendo
+que no hay fuerzas restauradoras que actúan sobre el sistema y suponiendo que la masa
+vibra libre de otras fuerzas externas movimiento libre se puede igualar la segunda
+ley de Newton con la fuerza neta o resultante de la fuerza restauradora y el peso.
+\section{ejemplo}
+Una masa que pesa 2 libras alarga 6 pulgadas un resorte. En $t = 0$ se libera la masa desde un punto que está 8 pulgadas abajo de la posición de equilibrio con una velocidad ascendente de $\frac{4}{•3} \frac{pies}{•s}$. Determine la ecuación de movimiento.
+
+\subsection{•solucion} 
+ Debido a que se está usando el sistema de unidades de ingeniería, las mediciones dadas en términos de pulgadas se deben convertir en pies:
+\[ 6 pulg = \frac{1}{•2} pie ; 8 pulg =  \frac{2}{•3} pie.
+ \]
+ Además, se deben convertir las unidades de peso dadas en libras aunidades de masa.
+  De m  Wg tenemos que 
+  
+ \[ m= \frac{2}{32•} =\frac{1}{•16} slug.
+  \] 
+   También, de la ley de Hooke,
+   \[ 2= k \frac{1}{•2} 
+   \] implica que la constante de resorte es \[k = 4 \frac{lib}{pie}.
+   \] Por lo que, de la ecuación (1) se obtiene
+  \[ \frac{1}{16} \frac{d^{2}x}{dt^{2}•}= -4x o \frac{d^{2}x}{dt^{2}•} + 64x = 0
+  \]
+El desplazamiento inicial y la velocidad inicial son
+\[ x(0)=\frac{2}{•3},x^{,}(0)=\frac{-4}{•3} 
+  \]donde el signo negativo en la última condición es una consecuencia del hecho de que a la masa 
+se le da una velocidad inicial en la dirección negativa o hacia arriba.
+ahora
+ \[ w^{2}= 64 0  w= 8
+ \]
+  por lo que la solucion de la ecuacion diferencial es 
+\[x(t)= c1 cos8t + c2 sen8t   
+\]
+Aplicando las condiciones iniciales a x(t) y x'(t) se obtiene 
+\[c1= \frac{2}{•3} y c2= \frac{-1}{•6}
+ \]
+por lo tanto la ecuacion de movimiento es
+ \[x(t)= \frac{2}{•3} cos8t + \frac{-1}{•6} sen8t\]
+ 
+ 
+ 
+ 
+ 
+\begin{center}
+\subsection{conclusiones}
+al final de este documento lo gramos concluir que esta herramienta llamada latex nos facilita la realizacion de documentos matematicos , ahora hablando un poco del tema y lo que son las ecuaciones diferenciales pudimos complementar las informaciones que nos dio el profe jhonnatan y entender lo que podemos hacer utilizando estas herramientas.
+
+\subsection{bibliografia}
+-libro: ecuaciones diferenciales con problemas con valores en la frontera 7ma edicion.
+
+\end{center}
+
+
+
+
+\end{document}
